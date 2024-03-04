@@ -1,4 +1,4 @@
-package com.example.heheh;
+package com.example.loginpage;
 
 import org.junit.Test;
 

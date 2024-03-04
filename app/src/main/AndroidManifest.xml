@@ -10,26 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Heheh"
+        android:theme="@style/Theme.LoginPage"
         tools:targetApi="31">
-        <activity
-            android:name=".MainActivityscoring"
-            android:exported="false" />
-        <activity
-            android:name=".Activity_question_5"
-            android:exported="false" />
-        <activity
-            android:name=".Activity_question_4"
-            android:exported="false" />
-        <activity
-            android:name=".Activity_question_3"
-            android:exported="false" />
-        <activity
-            android:name=".Activity_Question_2"
-            android:exported="false" />
-        <activity
-            android:name=".Activity_Question_1"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -39,10 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
